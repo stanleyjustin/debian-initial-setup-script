@@ -34,8 +34,7 @@ sudo apt-get -y install \
 	vlc \
 	chromium \
 	git \
-	flameshot \
-	virt-manager \	
+	flameshot \	
 
 
 
