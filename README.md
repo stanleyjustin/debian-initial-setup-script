@@ -2,7 +2,7 @@
 
 This repository is a collection of shell scripts that I have created to make some of the initial setup tasks for Debian easier. They have been written for the BASH shell. 
 
-Currently there are three scripts that are in current working order for Debian 10 Buster. 
+Currently there are three scripts for use on Ubuntu. 
 1. init-setup.sh
 2. jasmine-install.sh
 3. git-setup.sh
