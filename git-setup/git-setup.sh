@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# | Confirgure git
+# | Configure git
 #
 
 git config --global user.name "stanleyjustin"

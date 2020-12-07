@@ -32,9 +32,9 @@ sudo apt-get -y install \
 	libreoffice \
 	filezilla \
 	vlc \
-	chromium \
 	git \
-	flameshot \	
+	curl \
+	flameshot	
 
 
 
