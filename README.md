@@ -1,19 +1,13 @@
-## BASH Shell Scripts ##
+## Debian Initial Setup Shell Script ##
 
-This repository is a collection of shell scripts that I have created to make some of the initial setup tasks for Debian easier. They have been written for the BASH shell. 
-
-Currently there are three scripts for use on Ubuntu. 
-1. init-setup.sh
-2. jasmine-install.sh
-3. git-setup.sh
-
-There is a readme with the descriptions of what each command withing the folder containing the script. 
-
+This script sets up programs and packages that I want on every Debian workstation, installs jasmine for code testing, and sets up Git. At the end of the script the SSH key for Git generates and opens in VSCodium. 
 
 ### How to Use ###
 
 1. open terminal
-2. cd into the folder of the script that you want to run
-3. chmod +x foo.sh
-4. ./foo.sh
-5. any additional steps that the readme details
+2. cd into folder
+3. important: edit the username and email address to make it your own
+4. chmod +x initial-setup.sh
+5. ./initial-setup.sh
+
+At the end of the script the SSH key for Git generates and opens in VSCodium. 
