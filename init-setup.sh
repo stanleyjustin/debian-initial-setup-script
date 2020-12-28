@@ -46,8 +46,8 @@ sudo apt-get -y install \
 	vlc \
 	flameshot \
 	chromium \
-	okular \
-	
+	gnome-shell-extension-appindicator \
+	firmware-iwlwifi
 
 #-------------------------#
 # | Install nvm through curl
