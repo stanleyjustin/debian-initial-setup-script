@@ -1,17 +1,5 @@
-## Debian Initial Setup Shell Script ##
+## Debian Set-up Scripts ##
+As time has gone on and I have played around with different Debian installs and broke them I ended up using this script quite a bit.
+I soon realized that I would sometimes only need a certain component and that often times the script would fail due to a package name changing, a third-party repo changing, etc. 
 
-This script sets up programs and packages that I want on every Debian 10 (Buster) workstation, installs jasmine for code testing, and sets up Git. At the end of the script the SSH key for Git generates and opens in VSCode. 
-
-### How to Use ###
-
-Prior to executing command add the non-free repo as per these instructions: https://wiki.debian.org/SourcesList
-
-1. open terminal
-2. cd into folder
-3. important: edit the username and email address to make it your own
-4. chmod +x initial-setup.sh
-5. ./initial-setup.sh
-6. When prompted enter the destination folder of SSH Key (Git) or hit enter for default location.
-7. Enter password for Git if you wan; otherwise, hit enter. 
-
-
+This latest version has separated the scripts into a git/jasmine config, Debian repo install, and then third-party repo install. 
