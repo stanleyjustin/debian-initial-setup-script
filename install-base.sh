@@ -12,7 +12,8 @@ sudo apt -y install \
 	flameshot \
 	syncthing \
 	android-sdk-platform-tools-common \
-	gnome-tweaks
+	gnome-tweaks \
+	lm-sensors
 	
 
 
