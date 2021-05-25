@@ -42,4 +42,4 @@ ssh-keygen -C justinhstanley@gmail.com
 
 # | open key in vscodium
 
-codium ~/.ssh/id_rsa.pub
+code ~/.ssh/id_rsa.pub
